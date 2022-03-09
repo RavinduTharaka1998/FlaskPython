@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div>
+		{% if value %}
+			<p>{{value}}</p>
+		{% endif %}
+	</div>
+	<br>
+	<div>
+		<h4 style="text-align:center; font-weight: bold;">Prediction Graph</h4>
+		<br>
+			<div align="center">
+				<img width="600px" height="600px" src="{{ url_for('static', filename='images/graph.png') }}">
+			</div>
+		
+	</div>
+{% endblock content %}

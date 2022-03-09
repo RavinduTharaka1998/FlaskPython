@@ -1,0 +1,152 @@
+body {
+    background-image: linear-gradient(90deg, #00bbff 0%, #0072ff 100%);
+}
+
+.row {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    box-shadow: 5px 10px #888888;
+    border-radius: 15px;
+    background-color: #ebe8e8;
+    font-family: Georgia, serif;
+}
+
+h2 {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#frm {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text] {
+    margin-bottom: 15px;
+}
+
+input[type=password] {
+    margin-bottom: 15px;
+}
+
+input[type=submit] {
+    font-size: 18px;
+}
+
+input[type=submit] :hover{
+    opacity: 0.8;
+}
+
+.f-p-u {
+    margin-top: 15px;
+   text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ff9900;
+}
+
+p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.sign-up {
+    margin-left: 2px;
+    text-decoration: none;
+    color: tomato;
+}
+
+.sign-up:hover {
+    color: rgb(0, 26, 255);
+}
+
+.login-with {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+hr {
+    margin: auto;
+    width : 50%;
+}
+
+.social-media a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.fb {
+    background-color: #3B5998;
+    color: white;
+    margin-top: 10px;
+}
+
+.twitter {
+    background-color: #55ACEE;
+    color: white;
+    margin-top: 10px;
+}
+
+.google {
+    background-color: #dd4b39;
+    color: white;
+    margin-top: 10px;
+}
+
+.right-side {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: url("../../static/images/bg.jpg") no-repeat center;
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.overlay-right {
+    padding: 15px;
+    height: 500px;
+}
+
+.on-image {
+  padding: 10px;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.space-helper {
+  height: 270px;
+}
+
+h3 {
+    color: white;
+}
+
+h6 {
+    color: white;
+    font-weight: bold;
+}
+
+.image-hr-top {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.image-hr-bottom {
+    margin-top: 30px;
+    width: 100%;
+}

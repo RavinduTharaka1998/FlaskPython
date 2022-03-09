@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(13, 186, 255) !important;
+}
+
+.content-section {
+    padding: 20px;
+}
+
+.topic h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.outer {
+    color: white;
+    background: black;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 15px 15px rgb(206, 176, 176);
+}
+
+hr {
+    height:1px;
+    background-color: black;
+}
+
+.outer hr {
+    background-color: white;
+    height:1px
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    background: green;
+    color: white;
+    width: 30%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input[type=number] {
+    border-radius: 5px;
+    float: right;
+}
+
+select {
+    border-radius: 5px;
+    float: right;
+}
+
+.inner {
+    padding-left: 90px;
+    padding-right: 90px;
+}
